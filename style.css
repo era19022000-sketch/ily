@@ -7,3 +7,12 @@
 .ride button:not(.correct) small{color:#aa8c9c}
 .ride button b{font-size:16px}
 .ride button:first-child{font-size:25px}
+
+.love-percent{margin:20px 0 8px;font:700 clamp(58px,15vw,82px) Georgia,serif;color:#d95383;line-height:1}
+.love-slider-wrap{position:relative;margin:14px 10px 4px}
+#loveSlider{appearance:none;width:100%;height:18px;border-radius:99px;background:linear-gradient(90deg,#ffad9d,#ed76bb);outline:none}
+#loveSlider::-webkit-slider-thumb{appearance:none;width:70px;height:70px;border-radius:50%;background:#b66adf;border:0;box-shadow:0 8px 18px #9d5aa533;cursor:grab}
+#loveSlider::-moz-range-thumb{width:70px;height:70px;border-radius:50%;background:#b66adf;border:0;box-shadow:0 8px 18px #9d5aa533;cursor:grab}
+.slider-heart{position:absolute;right:2px;top:50%;transform:translateY(-50%);font-size:30px;pointer-events:none}
+.slider-caption{color:#a47f90;line-height:1.7;margin:12px 0 22px;font-size:15px}
+#summary{color:white;background:linear-gradient(100deg,#ff4f8c,#bd72e9);box-shadow:0 12px 26px #d74e8d47;min-width:210px}
