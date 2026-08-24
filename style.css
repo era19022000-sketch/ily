@@ -180,3 +180,84 @@ small{
 
 .plan small{
   font-size:12px
+  #s5{
+  padding:34px 22px 29px;
+}
+
+#s5 .cat{
+  font-size:100px;
+  margin:20px 0 8px;
+}
+
+#s5 h2{
+  font-size:clamp(28px,6vw,40px);
+}
+
+#s5 p{
+  font-size:15px;
+  margin:16px 0;
+}
+
+#s5 .love-percent{
+  margin:20px 0 8px;
+  font:700 clamp(58px,15vw,82px) Georgia,serif;
+  color:#d95383;
+  line-height:1;
+}
+
+#s5 .love-slider-wrap{
+  position:relative;
+  margin:14px 10px 4px;
+}
+
+#s5 #loveSlider{
+  appearance:none;
+  width:100%;
+  height:18px;
+  border-radius:99px;
+  outline:none;
+}
+
+#s5 #loveSlider::-webkit-slider-thumb{
+  appearance:none;
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  background:#b66adf;
+  border:0;
+  box-shadow:0 8px 18px #9d5aa533;
+  cursor:grab;
+}
+
+#s5 #loveSlider::-moz-range-thumb{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  background:#b66adf;
+  border:0;
+  box-shadow:0 8px 18px #9d5aa533;
+  cursor:grab;
+}
+
+#s5 .slider-heart{
+  position:absolute;
+  right:2px;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:30px;
+  pointer-events:none;
+}
+
+#s5 .slider-caption{
+  color:#a47f90;
+  line-height:1.7;
+  margin:12px 0 22px;
+  font-size:15px;
+}
+
+#s5 #summary{
+  color:white;
+  background:linear-gradient(100deg,#ff4f8c,#bd72e9);
+  box-shadow:0 12px 26px #d74e8d47;
+  min-width:210px;
+}
