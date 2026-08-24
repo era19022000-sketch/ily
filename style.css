@@ -415,4 +415,47 @@ small{
   #s4 #final{
     margin-top:4px
   }
+} 
+/* Подсказка для кнопки "Договорились" */
+
+#final{
+  position:relative;
+  animation:finalGlow 1.8s ease-in-out infinite;
+}
+
+@keyframes finalGlow{
+  0%,100%{
+    transform:scale(1);
+    box-shadow:0 12px 26px #d74e8d47;
+  }
+
+  50%{
+    transform:scale(1.06);
+    box-shadow:
+      0 0 12px #ff75a8aa,
+      0 0 28px #ff75a855,
+      0 14px 32px #d74e8d55;
+  }
+}
+
+#final:hover{
+  transform:scale(1.08);
+}
+
+.next-hint{
+  display:block;
+  margin-top:10px;
+  color:#c35a84;
+  font-size:13px;
+  animation:hintPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes hintPulse{
+  0%,100%{
+    opacity:.65;
+  }
+
+  50%{
+    opacity:1;
+  }
 }
